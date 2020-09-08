@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title>3D Map</title>
     <meta name="Real-Time Monitoring on a 3D Printed Map" content="">
-    <meta name="Leonardo Ward" content="">
+    <meta name="Said Alvarado" content="">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -60,23 +60,23 @@
             <h2 class="header__nav-heading h6">Navigate to</h2>
 
             <ul class="header__nav">
-                <li><a href="index.html" title="">Home</a></li>
-                <li class="has-children current">
+                <li class="current"><a href="index.html" title="">Home</a></li>
+                <li class="has-children">
                     <a href="#0" title="">3D Printing</a>
                     <ul class="sub-menu">
-                        <li><a href="3dmap.html">Map</a></li>
+                        <li><a href="3dmap.html">VZLA Smart Map</a></li>
                     </ul>
                 </li>
                 <li class="has-children">
-                    <a href="#0" title="">Robotics</a>
+                    <a href="#0" title="">Micro Robotics</a>
                     <ul class="sub-menu">
-                        <li><a href="sumo.html">Sumo</a></li>
+                        <li><a href="icarus.html">Maze Solving Robot</a></li>
                     </ul>
                 </li>
                 <li class="has-children">
-                    <a href="#0" title="">Vehicles</a>
+                    <a href="#0" title="">Drones</a>
                     <ul class="sub-menu">
-                        <li><a href="bajasae.html">Baja SAE USB</a></li>
+                        <li><a href="quadcopter.html">DIY Quadcopter</a></li>
                     </ul>
                 </li>
             </ul> <!-- end header__nav -->
@@ -108,7 +108,7 @@
                     <li class="date">August, 2019</li>
                     <li class="byline">
                         By
-                        <a href="#0">Leonardo Ward</a>
+                        <a href="#0">Said Alvarado</a>
                     </li>
                 </ul>
             </div>
@@ -116,6 +116,15 @@
             <div class="col-full entry__main">
 
                 <p class="lead drop-cap">Geographical maps are commonly used to display information. Depending on the importance and complexity of the data, a visual representation can be very valuable. This project uses 3D Printing to assemble a display screen with the shape of the map.</p>
+
+                <div class="view">
+                    <!--Video source-->
+                <video class="video-fluid"  style="display:block; margin: 0 auto;"  autoplay loop muted>
+                    <source src="images/3dmap/2-video.mp4"  type="video/mp4" />
+                </video>
+                <div class="mask rgba-indigo-light"></div>
+                </div>
+
 
                 <p>A modular approach was used to design different parts of the map. Each state in the map is easily identifiable, and has at least one led asigned to it that can change it's color independently.
                 </p>
@@ -177,17 +186,17 @@
                 </div> <!-- end s-content__taxonomies -->
 
                 <div class="entry__author">
-                    <img src="images/avatars/foto.png" alt="">
+                    <img src="images/avatars/Said_Portrait.jpg" alt="">
 
                     <div class="entry__author-about">
                         <h5 class="entry__author-name">
                             <span>Posted by</span>
-                            <a href="#0">Leonardo Ward</a>
+                            <a href="#0">Said Alvarado</a>
                         </h5>
 
                         <div class="entry__author-desc">
                             <p>
-                            MSc. Student in Electronic Engineering at Simón Bolívar University, Venezuela.
+                            R&D Engineer on Autonomous Vehicles at Inria-Paris, France.
                             </p>
                         </div>
                     </div>
@@ -201,9 +210,9 @@
         <div class="s-content__entry-nav">
             <div class="row s-content__nav">
                 <div class="col-six s-content__prev">
-                    <a href="sumo.html" rel="prev">
+                    <a href="quadcopter.html" rel="prev">
                         <span>Previous Post</span>
-                        ATLAS, a Robot for Sumo Competitions
+                        DIY Quadcopter: Flying Control Research Platform
                     </a>
                 </div>
                 <!-- <div class="col-six s-content__next">
@@ -223,21 +232,48 @@
 
         <div class="s-footer__main">
             <div class="row">
-              <div class="col-six tab-full s-footer__about">
 
-                  <h4>Leonardo Ward</h4>
+                <div class="col-six tab-full s-footer__about">
 
-                  <p>New ideas and technologies can create revolutionary products. I am an Engineer in the field of Electronics with experience in research, product development and project management. I am a student of a Master’s degree in Mechatronics with experience in robotics and self-driving (with CARLA and RTMaps) systems including control, sensor fusion, visual perception (with OpenCV), non-linear optimization and statistical estimation.</p>
+                    <h4>Said Alvarado</h4>
 
-              </div>
-              <div class="col-six tab-full s-footer__about">
+                    <!-- <p>New ideas and technologies can create revolutionary products. I am an Engineer in the field of Electronics with experience in research, product development and project management. I am a student of a Master’s degree in Mechatronics with experience in robotics and self-driving (with CARLA and RTMaps) systems including control, sensor fusion, visual perception (with OpenCV), non-linear optimization and statistical estimation.</p> -->
+                    <p>I'm a Research and Development Engineer with a strong background in mobile robotics, autonomous driving and electronic prototyping. I have experience on programming (C++, Python), algorithms (sensor fusion, motion planning, deep learning) and PCB design.
 
-                  <p>I have designed and developed applications using object-oriented programming in Python, Java and C++. Also I have experience in front-end, back-end, database and mobile development using HTML, CSS, Javascript, Angular, Vuejs, Quasar, NodeJS and MySQL.</p>
+                        <br><br>Fond of 3D printers, Linux and DIY electronics.</p>
 
-                  <p>I have worked with linux-based systems (like Ubuntu), and version control systems (Github
-                  and Bitbucket).</p>
+                </div>
+                <div class="col-six tab-full s-footer__about">
 
-              </div>
+                    <!-- <p>I have designed and developed applications using object-oriented programming in Python, Java and C++. Also I have experience in front-end, back-end, database and mobile development using HTML, CSS, Javascript, Angular, Vuejs, Quasar, NodeJS and MySQL.</p>
+
+                    <p>I have worked with linux-based systems (like Ubuntu), and version control systems (Github
+                    and Bitbucket).</p> -->
+
+                </div>
+                <!-- end s-footer__about -->
+
+                <!-- <div class="col-six tab-full s-footer__subscribe">
+
+                    <h4>Our Newsletter</h4>
+
+                    <p>Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa consequatur occaecati.</p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+
+                            <input type="submit" name="subscribe" value="Send">
+
+                            <label for="mc-email" class="subscribe-message"></label>
+
+                        </form>
+                    </div>
+
+                </div>  -->
+                <!-- end s-footer__subscribe -->
+
             </div>
         </div> <!-- end s-footer__main -->
 
@@ -246,11 +282,23 @@
 
                 <div class="col-six">
                     <ul class="footer-social">
-                        <li>
-                            <a href="https://www.linkedin.com/in/leonardo-ward"><i class="fab fa-linkedin"></i></a>
+                        <!-- <li>
+                            <a href="#0"><i class="fab fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="https://github.com/leonardoward"><i class="fab fa-github"></i></a>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-youtube"></i></a>
+                        </li> -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/said-alvarado/"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SaidAlvarado"><i class="fab fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
